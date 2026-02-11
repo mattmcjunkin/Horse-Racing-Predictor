@@ -20,8 +20,3 @@ streamlit run app.py
 ## Deploy to Render
 
 This repository includes `render.yaml` configured for web deployment.
-
-## Runtime Requirements
-
-- Python dependencies are defined in `requirements.txt`.
-- Ruby version is pinned to `3.4.4` via `.ruby-version` (and mirrored in `render.yaml` as `RUBY_VERSION`) for Render/runtime consistency.
