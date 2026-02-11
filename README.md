@@ -24,3 +24,19 @@ This repository includes `render.yaml` configured for web deployment.
 ## Runtime Requirements
 
 - Python dependencies are defined in `requirements.txt`.
+
+
+## Ruby compatibility
+
+This repository now includes Ruby support artifacts so the project is usable from Ruby environments as well:
+
+- `.ruby-version` is pinned to `3.4.4`.
+- `Gemfile` defines Ruby dependencies.
+- `scripts/analyze_card.rb` provides a Ruby CLI to compute proprietary speed figures from a CSV card file.
+
+Example:
+
+```bash
+bundle install
+ruby scripts/analyze_card.rb sample_card.csv dr4
+```
