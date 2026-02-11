@@ -19,7 +19,18 @@ streamlit run app.py
 
 ## Deploy to Render
 
-This repository includes `render.yaml` configured for web deployment.
+This repository includes `render.yaml` configured as a **Render Web Service** blueprint:
+
+- `type: web`
+- `env: python`
+- `buildCommand: pip install -r requirements.txt`
+- `startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0`
+
+Deploy steps:
+
+1. Push this repo to GitHub.
+2. In Render, create a **Blueprint** (or Web Service from repo) and select this repository.
+3. Render will install Python dependencies and run the Streamlit service on Render’s assigned `$PORT`.
 
 ## Runtime Requirements
 
