@@ -1,6 +1,6 @@
 # Horse Racing Predictor
 
-A Streamlit app for ingesting Brisnet race card files (`CSV`, `DRF`, `DRF2`, `DRF3`, `DRF4`) and historical results, generating proprietary speed figures, and tracking horse-level and track-level trends.
+A Streamlit app for ingesting Brisnet race card files (`CSV`, `DRF`, `DR2`, `DR3`, `DR4`) and historical results, generating proprietary speed figures, and tracking horse-level and track-level trends.
 
 ## Features
 

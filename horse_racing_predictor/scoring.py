@@ -8,6 +8,9 @@ import pandas as pd
 SOURCE_WEIGHTS = {
     "csv": 0.9,
     "drf": 1.0,
+    "dr2": 1.05,
+    "dr3": 1.1,
+    "dr4": 1.15,
     "drf2": 1.05,
     "drf3": 1.1,
     "drf4": 1.15,

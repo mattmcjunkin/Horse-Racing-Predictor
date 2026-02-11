@@ -13,7 +13,7 @@ def test_calculate_speed_figures_adds_column():
             "pace": [78, 88, 84],
             "class": [70, 75, 72],
             "weight": [120, 122, 121],
-            "source_type": ["drf", "drf4", "csv"],
+            "source_type": ["drf", "dr4", "csv"],
         }
     )
 
