@@ -17,16 +17,16 @@ col1, col2 = st.columns(2)
 
 with col1:
     card_files = st.file_uploader(
-        "Upload race card files (CSV, DRF, DRF2, DRF3, DRF4)",
+        "Upload race card files (CSV, DRF, DR2, DR3, DR4)",
         accept_multiple_files=True,
-        type=["csv", "drf", "drf2", "drf3", "drf4"],
+        type=["csv", "drf", "dr2", "dr3", "dr4", "drf2", "drf3", "drf4"],
     )
 
 with col2:
     results_files = st.file_uploader(
         "Upload historical result files",
         accept_multiple_files=True,
-        type=["csv", "drf", "drf2", "drf3", "drf4"],
+        type=["csv", "drf", "dr2", "dr3", "dr4", "drf2", "drf3", "drf4"],
     )
 
 track_selection = st.selectbox("Track analyzer", US_TRACKS)
