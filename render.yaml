@@ -3,4 +3,4 @@ services:
     name: horse-racing-predictor
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: $start
+    startCommand: $ start
